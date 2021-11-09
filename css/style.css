@@ -421,7 +421,7 @@ span.caret-home{
 	color:#ffffff;
 }
 
-.main-slider h1{
+.main-slider p{
 	font-size:77px; 
 	font-weight:400;
 	letter-spacing:2px;
@@ -431,7 +431,7 @@ span.caret-home{
 	 
 }
 
-.main-slider h2{
+.main-slider .like_h2{
 	font-size:18px;
 	padding:5px 10px; 
 	text-transform:uppercase;
@@ -604,7 +604,7 @@ section#aboutus_area {
     margin: -23px 15px;
     text-align: left;
 }
-.single_text h2 {
+.single_text h3 {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -665,7 +665,7 @@ section#aboutus_area {
     margin-bottom: -8px;
     padding: 0 0;
 }
-.about_text h2 {
+.about_text h3 {
     font-size: 20px;
     color: #000;
     font-weight: 600;
@@ -717,7 +717,7 @@ section#aboutus_area {
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
 }
-.choose_img h3 {
+.choose_img p {
     font-size: 24px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
@@ -1007,8 +1007,8 @@ section#service_area {
 	color:#000;
 	font-weight:600;
 }
-.offers h2 {
-    color: #000;
+.offers h3 {
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -1318,15 +1318,15 @@ section#testimonial_area {
     float: right;
     width: 80%;
 }
-.slider_right h2{
+.slider_right .name{
 	font-family:poppins;
-	font-size:14px;
+	font-size:20px;
 	color:#fff;
 	font-weight:700;
 }
-.slider_right h3{
+.slider_right .work{
 	font-family:poppins;
-	font-size:12px;
+	font-size:15px;
 	color:#d89423;
 	font-weight:600;
 }
@@ -1603,7 +1603,13 @@ section#footer_area {
 .column-two {
     height: 50px;
 }
-.column_title h2 {
+.footer_content h4 {
+    font-size: 18px;
+    color: #fff;
+    font-family: Poppins;
+    text-transform: capitalize;
+}
+.column_title h4 {
     font-size: 18px;
     color: #fff;
     font-family: Poppins;
@@ -2468,8 +2474,7 @@ div#great_area {
 .img-holder.great_left img {
     margin-top: 10px;
 }
-.great_right{}
-.great_right h2 {
+.great_right .likeh1 {
     font-family: 'Poppins', sans-serif;
     color: #000000;
     font-size: 28px;
@@ -2640,7 +2645,7 @@ section#testimonial_area_two {
     background: url(../img/home-2/testimonial.jpg);
     background-size: cover;
 	height:100%;
-    padding-bottom: 140px;
+    padding-bottom: 40px;
     padding-top: 140px;
 }
 .partner {
@@ -2729,7 +2734,7 @@ section#testimonial_area_two {
     background-size: cover;
 }
 
-.page_titel h2{
+.page_titel h1{
 	font-family: 'Titillium Web', sans-serif;
     font-size: 34px;
     font-weight: 700;
@@ -2741,7 +2746,7 @@ section#testimonial_area_two {
     height: 2px; 
     display: inline-block;
 }
-.page_titel h3{
+.page_titel p{
 	font-family: 'Poppins', sans-serif;
 	color:#000000;
 	font-size:14px;
@@ -2764,13 +2769,7 @@ section#testimonial_area_two {
     font-weight: 600;
 	color:#000000;	
 }
-.service_right h3{ 
-	font-family: Poppins;
-    font-size: 14px;
-    font-weight: 600;
-	color:#000000;	
-	line-height:20px;
-}
+
 .service_right p {
   color: #838383;
   font-family: Poppins;
@@ -2800,14 +2799,17 @@ hr {
 	border-radius:0px; 
 	border:0px solid;
 }
-.service_one h2 {
+.service_one p {
   color: #e9e9e9;
   font-family: Poppins;
   font-size: 70px;
   font-weight: 500;
+  line-height: 20px;
+
 }
 .service_one{
 	position:relative;
+    padding-top: 50px;
 }
 .service_title{
 	position:absolute;
