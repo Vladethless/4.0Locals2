@@ -2665,13 +2665,13 @@ section#testimonial_area_two {
   padding-bottom:0 !important;
 }
 .owl_details{}
-.owl_details h2{
+.owl_details .name_2{
 	font-family: 'Poppins', sans-serif;
 	color:#fff;
 	font-size:14px;
 	font-weight:500;
 }
-.owl_details h3{
+.owl_details .work_2{
 	font-family: 'Poppins', sans-serif;
 	color:#d89423;
 	font-size:12px;
