@@ -2727,7 +2727,7 @@ section#testimonial_area_two {
     height: 100px;
 }
 .page_titel {
-    background: url(../img/all.jpeg);
+    background: url(../img/all.jpg);
     overflow: hidden;
     width: 100%;
     height: 200px;
@@ -2735,7 +2735,8 @@ section#testimonial_area_two {
 }
 .page_heading{
     padding-top: 40px;
-    text-align: end;
+    text-align: start;
+    padding-left: 25px;
 }
 .page_titel h1{
 	font-family: 'Titillium Web', sans-serif;
