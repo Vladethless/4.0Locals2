@@ -777,7 +777,7 @@ section#aboutus_area {
 .choose_image {
     width: 50%;
     float: left;
-    background: #1b1b1b url(../img/home-1/Choose_us.jpg);
+    background: #1b1b1b url(../img/about_why.jpg);
     height: 540px;
     background-size: cover;
 }
@@ -2727,13 +2727,16 @@ section#testimonial_area_two {
     height: 100px;
 }
 .page_titel {
-    background: url(../img/page/service/banner.jpg);
+    background: url(../img/all.jpeg);
     overflow: hidden;
     width: 100%;
     height: 200px;
     background-size: cover;
 }
-
+.page_heading{
+    padding-top: 40px;
+    text-align: end;
+}
 .page_titel h1{
 	font-family: 'Titillium Web', sans-serif;
     font-size: 34px;
