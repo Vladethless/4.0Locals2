@@ -202,10 +202,12 @@ a, a:hover, a:active, a:focus {
 }
 .company_cell ul li:first-child {
     padding-left: 0;
+
 }
 .company_cell ul li {
     float: left;
     padding: 0 13px;
+    list-style-type: none;
 }
 .company_cell ul li a{
 	text-decoration:none;
@@ -451,10 +453,10 @@ span.caret-home{
 .slider-btn {
     width: 150px !important;
     height: 50px !important;
-    border: 2px solid #141414;
+    border: 2px solid #ffc003;
     text-align: center;
     padding-top: 15px !important;
-    color: #181818 !important;
+    color: #ffc003 !important;
     font-weight: 900 !important;
     text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif;
@@ -463,12 +465,13 @@ span.caret-home{
 }
 .slider-btn a {
   font-size: 13px !important; 
+  color:#ffc003;
 }
 .main-slider .roman-text{
 	font-size:77px;
 	padding:10px 10px !important; 
 	text-transform:uppercase;
-	color:#181818;
+	color:#ffffff;
 	font-weight:900;
 	font-family:'Titillium Web', sans-serif;
 }
@@ -2559,7 +2562,11 @@ section#counter_area {
 	height:250px;
 }
 .Counter {
-  padding: 55px 0 0;
+    padding: 55px 0 0;
+  }
+
+.Counter ul li {
+  list-style-type: none;
 }
 .Counter span {
     font-family: 'Poppins', sans-serif;
@@ -2574,6 +2581,7 @@ section#counter_area {
 	color:#fff;
 	font-size:18px;
 	font-weight:300;
+    
 }
 .Counter i {
   color: #f8aa27;

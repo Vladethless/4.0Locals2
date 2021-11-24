@@ -2640,7 +2640,7 @@
 	}
 	 
 	.Counter {
-	  padding: 10%;
+	  padding-left: 15%;
 	}
 	#service_area_two { 
 	  height: 100%;
@@ -2900,7 +2900,6 @@
 	
 	.Counter.counter-two li {
     margin-right: 30%;
-		display: ;
 	}
 	 
 	.news_text h2 {
