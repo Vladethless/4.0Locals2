@@ -557,13 +557,14 @@ section#aboutus_area {
     line-height: 25px;
     font-family: 'Poppins', sans-serif;
 }
+
 .single_icon {
     float: left;
     width: 90px;
     height: 100%;
 }
 .single_about {
-    height: 150px;
+    height: 300px;
     margin-bottom: 2%;
     overflow: hidden;
 }
@@ -721,10 +722,12 @@ section#aboutus_area {
     font-family: 'Poppins', sans-serif;
 }
 .choose_img p {
-    font-size: 24px;
+    font-size: 15px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    width: 450px;
+    padding-top: 15px;
 }
  span.choose_separator {
     background: #fff;
@@ -801,7 +804,7 @@ section#aboutus_area {
   
 .choose {
     padding-left: 80px;
-    padding-top: 65px;
+    padding-top: 45px;
 }
  
 #owl-demo .item img{
@@ -984,6 +987,12 @@ section#service_area {
     font-weight: 700;
 	color:#fff;
 }
+.head_title.service.text-center .type2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+	color:rgb(0, 0, 0) !important;
+}
 .head_title.service.text-center span {
     background: #ae8e1e;
     width: 15px;
@@ -992,12 +1001,13 @@ section#service_area {
 }
 .head_title.service.text-center p {
     font-size: 14px;
-    color: #494949;
+    color: #494949 !important;
     font-family: 'Poppins', sans-serif;
     margin: 0 10%;
     font-weight: 500;
     padding-top: 20px;
 }
+
 .head_title.service.text-center {
     padding-top: 100px;
 }
@@ -3120,21 +3130,36 @@ div#team_area {
 	font-family:Poppins;
 	margin-top:0%;
 }
+.blog_text h3{ 
+    font-size: 22px; 
+    font-weight: 600; 
+	color:#000;
+	font-family:Poppins;
+	margin-top:0%;
+}
 .blog_text h4 {
-    font-size: 13px;
+    font-size: 15px;
     font-style: italic;
     color: #c0c0c0;
     font-family: Bitter; 
-    font-weight: normal;
+    font-weight: 300;
     line-height: 30px;
 }
 .blog_text p{
-	font-size: 13px; 
+	font-size: 15px; 
     font-weight: 400; 
 	color:#838383;
 	font-family:Poppins;
 	line-height:25px;
 }
+.blog_details_area ul li p{
+	font-size: 15px; 
+    font-weight: 400; 
+	color:#838383;
+	font-family:Poppins;
+	line-height:25px;
+}
+
 .blog_img img {
     height: 100%;
     width: 100%;
@@ -3593,9 +3618,23 @@ a.page-nav {
 	padding:5px 0;
 }
 .blog_details_area p{
-	font-size: 13px;
-    font-weight: 400;
+	font-size: 17px;
+    font-weight: 500;
     color: #838383;
+    font-family: Poppins;
+    line-height: 25px;
+}
+.blog_details_area .zag{
+	font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    font-family: Poppins;
+    line-height: 25px;
+}
+.blog_text .zag{
+	font-size: 20px;
+    font-weight: 600;
+    color: #000;
     font-family: Poppins;
     line-height: 25px;
 }
