@@ -563,6 +563,7 @@ section#aboutus_area {
     width: 90px;
     height: 100%;
 }
+
 .single_about {
     height: 300px;
     margin-bottom: 2%;
@@ -596,7 +597,7 @@ section#aboutus_area {
     color: #fff;
     display: block;
     border-radius: 100%;
-    padding-left: 3px;
+    padding-left: 20px;
     padding-top: 14%;
 }
 
@@ -3618,8 +3619,8 @@ a.page-nav {
 	padding:5px 0;
 }
 .blog_details_area p{
-	font-size: 17px;
-    font-weight: 500;
+	font-size: 15px;
+
     color: #838383;
     font-family: Poppins;
     line-height: 25px;
