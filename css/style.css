@@ -565,7 +565,7 @@ section#aboutus_area {
 }
 
 .single_about {
-    height: 300px;
+    height: 250px;
     margin-bottom: 2%;
     overflow: hidden;
 }
@@ -1001,11 +1001,11 @@ section#service_area {
     display: inline-block;
 }
 .head_title.service.text-center p {
-    font-size: 14px;
-    color: #494949 !important;
+    font-size: 15px;
+    color: #ffc003 !important;
     font-family: 'Poppins', sans-serif;
     margin: 0 10%;
-    font-weight: 500;
+    font-weight: 600;
     padding-top: 20px;
 }
 

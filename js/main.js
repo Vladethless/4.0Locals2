@@ -169,20 +169,7 @@
 		
 	// Google Map
 	function gMap () {
-		if ($('.google-map').length) {
-            var map;
-            map = new GMaps({
-                div: '.google-map',
-                scrollwheel: false,
-                lat: -37.812802,
-                lng: 144.956981
-            });
-            map.addMarker({
-                lat: -37.812802,
-                lng: 144.956981,
-                title: 'Envato HeadQuarter'
-            });  
-		};
+
 	} 
 	// Sticky header 
 	function stickyHeader () {
@@ -264,38 +251,7 @@
 		  smallmobiel: [320,1], 
 		  
 	  });
-	//Contact Form Validation
-	function contactFormValidation () {
-		if($('.contact-form').length){
-			$('.contact-form').validate({ // initialize the plugin
-				rules: {
-					name: {
-						required: true
-					},
-					email: {
-						required: true,
-						email: true
-					},
-					message: {
-						required: true
-					},
-					subject: {
-						required: true
-					}
-				},
-				submitHandler: function (form) { 
-					// sending value with ajax request
-					$.post($(form).attr('action'), $(form).serialize(), function (response) {
-						$(form).parent('div').append(response);
-						$(form).find('input[type="text"]').val('');
-						$(form).find('input[type="email"]').val('');
-						$(form).find('textarea').val('');
-					});
-					return false;
-				}
-			});
-		}
-	}
+
 	 // Gallery masonary style
 	function galleryMasonaryLayout () {
 		if ($('.masonary-gallery').length) {
